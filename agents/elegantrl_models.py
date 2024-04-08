@@ -4,7 +4,6 @@ DRL models from ElegantRL: https://github.com/AI4Finance-Foundation/ElegantRL
 
 from __future__ import annotations
 
-import torch
 from elegantrl.agents import *
 from elegantrl.train.config import Config
 from elegantrl.train.run import train_agent
