@@ -3,7 +3,7 @@ FinRL@git+https://github.com/kineticengines/FinRL.git@develop
 # market data & paper trading API
 exchange_calendars
 gputil>=1.4.0
-gymnasium
+gymnasium>=0.28.1
 jqdatasdk>=1.8.10
 lz4>=4.0.1
 
@@ -28,7 +28,7 @@ scikit-learn>=1.4.1.post1
 
 # packaging
 setuptools>=63.1.0
-stable-baselines3
+stable-baselines3==2.3.0
 stockstats>=0.4.1
 tensorboardX>=2.5.1
 vectorbt[full]>=0.26.1
