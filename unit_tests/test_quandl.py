@@ -1,6 +1,6 @@
 import pytest
 
-from meta.data_processor import DataProcessor
+from finrlmeta.data_processor import DataProcessor
 
 
 def test_quandl():

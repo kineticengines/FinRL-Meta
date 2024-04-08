@@ -9,7 +9,7 @@ from finrl.config import TRAIN_START_DATE
 from finrl.meta.preprocessor.yahoodownloader import YahooDownloader
 from pyfolio import timeseries
 
-from meta import config
+from finrlmeta import config
 
 
 def get_daily_return(df, value_col_name="account_value"):

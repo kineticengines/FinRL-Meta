@@ -4,10 +4,10 @@ import pandas as pd
 from stable_baselines3 import A2C
 
 from agents.stablebaselines3_models import DRLAgent
-from meta import config
-from meta import config_tickers
-from meta.data_processor import DataProcessor
-from meta.env_portfolio_allocation.env_portfolio_yahoofinance import StockPortfolioEnv
+from finrlmeta import config
+from finrlmeta import config_tickers
+from finrlmeta.data_processor import DataProcessor
+from finrlmeta.env_portfolio_allocation.env_portfolio_yahoofinance import StockPortfolioEnv
 
 
 def data_split(df, start, end, target_date_col="time"):

@@ -3,8 +3,8 @@ from typing import List
 import pandas as pd
 import pytest
 
-from meta.config import INDICATORS
-from meta.data_processor import DataProcessor
+from finrlmeta.config import INDICATORS
+from finrlmeta.data_processor import DataProcessor
 
 
 @pytest.fixture(scope="session")

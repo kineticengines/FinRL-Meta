@@ -4,10 +4,10 @@ from typing import List
 import pandas as pd
 import pytest
 
-from meta.config import INDICATORS
-from meta.config_tickers import DOW_30_TICKER
-from meta.config_tickers import SINGLE_TICKER
-from meta.data_processor import DataProcessor
+from finrlmeta.config import INDICATORS
+from finrlmeta.config_tickers import DOW_30_TICKER
+from finrlmeta.config_tickers import SINGLE_TICKER
+from finrlmeta.data_processor import DataProcessor
 
 
 @pytest.fixture(scope="session")
